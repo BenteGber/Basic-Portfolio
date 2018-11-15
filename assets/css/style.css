@@ -48,7 +48,11 @@ h1 {
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif
 }
-
+.wrapper {
+    display:flex;
+    align-content: space-between;
+    flex-direction: column;
+}
 .navbar {
     width: 100%;
     min-width: 960px;
@@ -57,7 +61,7 @@ h2 {
     box-shadow: 0 1px 3px #333;
     display: flex;
     justify-content: center;
-    border-bottom: 1px #cccccc;
+    border-bottom:2px solid #cccccc;
 }
 
 
@@ -97,8 +101,9 @@ a:link {
     min-width: 960px;
     max-width: 1280;
     height: fit-content;
+    min-height: 300px;
     background-repeat: repeat;
-    padding: 100px 25px;
+    padding: 100px 0px;
     display: flex;
     align-content: center;
     justify-content: center;
@@ -134,21 +139,26 @@ hr{
     height: auto;
     margin:2px;
 }
-    
-}
-#main-content p {
-    display: block;
-    float:left;
-
-}
-
 .footer {
     width: 100%;
     background-color:#666;
     color: #fff;
-    border-top: 2px #4aa;
+    border-top: 3px solid #4aa;
     padding: 10px 0px 10px 0px;
     text-align: center;
     clear: both;
     z-index: 2;
+}
+/* CONTACT PAGE CSS*/
+input {
+    width:100%;
+}
+#message-box {
+    height:200px;
+}
+#submit-button {
+    width: 100px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin-top: 10px;
 }
