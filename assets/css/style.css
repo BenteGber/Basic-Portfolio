@@ -130,6 +130,7 @@ a:link {
     width: 200px;
     float: left;
     margin-right: 15px;
+    margin-bottom:1px;
 }
 
 #bio-pic img{
@@ -149,11 +150,19 @@ a:link {
 }
 
 /* CONTACT PAGE CSS*/
-
+#main-content-contact{
+    background-color: #fff;
+    width: 50%;
+    min-width: 760px;
+    padding: 10px 10px 10px 10px;
+    align-content: center;
+    justify-content: center;
+    z-index: 2;
+    border: 1px #ddd;
+}
 input {
     width:99%;
     margin-bottom:2px;
-
 }
 #message-box {
     height:200px;
@@ -166,75 +175,75 @@ input {
 }
 
 /* PORTFOLIO PAGE CSS */
-#name-portfolio {
-    background-color: #4aaaa5;
-    color: #fff;
-    width: 100px;
-    z-index: 2;
-    text-align: center;
-    display: flex;
-    margin: 0px;
-    margin-right: 70px;
-    padding-left:15px;
-    border: 0;
-    justify-content: flex-start;
-    align-items: center;
-    width: 215px;
-}
-#pagenav-portfolio {
-    list-style-type: none;
-    text-align: center;
-    display: inline-flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin: 25px 0px;
-    padding: 0;
-    width: 480px;
-}
-.portfolio-content {
-    background-color: #fff;
-    width: 50%;
-    min-width: 760px;
-    padding: 10px 10px 10px 10px;
-    z-index: 2;
-    border: 1px #ddd;
-}
-.portfolio-content h2 {
-        width:100%;
-        color:#4aaaa5;
-}
-.portfolio-content div {
-    height: 200px;
-    width: 200px;
-    float: left;
-    margin: 10px;
-    margin-left:0px;
-}
+    #name-portfolio {
+        background-color: #4aaaa5;
+        color: #fff;
+        width: 100px;
+        z-index: 2;
+        text-align: center;
+        display: flex;
+        margin: 0px;
+        margin-right: 70px;
+        padding-left:15px;
+        border: 0;
+        justify-content: flex-start;
+        align-items: center;
+        width: 215px;
+    }
+    #pagenav-portfolio {
+        list-style-type: none;
+        text-align: center;
+        display: inline-flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin: 25px 0px;
+        padding: 0;
+        width: 480px;
+    }
+    .portfolio-content {
+        background-color: #fff;
+        width: 50%;
+        min-width: 760px;
+        padding: 10px 10px 10px 10px;
+        z-index: 2;
+        border: 1px #ddd;
+    }
+    .portfolio-content h2 {
+            width:100%;
+            color:#4aaaa5;
+    }
+    .portfolio-content div {
+        height: 200px;
+        width: 200px;
+        float: left;
+        margin: 10px;
+        margin-left:0px;
+    }
 
-.portfolio-content img {
-    width: 100%;
-    margin: 10px 0 10px 0;
-}
-.portfolio-content span {
-    display: block;
-    background-color: #4aaaa5;
-    color: #fff;
-    position: relative;
-    text-align: center;
-    bottom: 87px;
-    padding: 15px 0px;
-}
-hr{
-    clear:both;
-}
-.portfolio-content hr {
-    width: 750px;
-    margin-left: 0px;
-    margin-right: 0px;
-}
-.portfolio-content :nth-child(4) {
-    margin-right:  330px;
-}
-.portfolio-content :nth-child(6) {
-    margin-right:  330px;
-}
+    .portfolio-content img {
+        width: 100%;
+        margin: 10px 0 10px 0;
+    }
+    .portfolio-content span {
+        display: block;
+        background-color: #4aaaa5;
+        color: #fff;
+        position: relative;
+        text-align: center;
+        bottom: 87px;
+        padding: 15px 0px;
+    }
+    hr{
+        clear:both;
+    }
+    .portfolio-content hr {
+        width: 750px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .portfolio-content :nth-child(4) {
+        margin-right:  330px;
+    }
+    .portfolio-content :nth-child(6) {
+        margin-right:  330px;
+    }
